@@ -21,3 +21,14 @@ import com.imust.service.ParkService;
 public class OrderController {
     @Autowired
     private OrderService orderService;
+
+    @Autowired
+    private ParkService parkService;
+    //获取列表
+    @RequestMapping("/showOrder")
+    public String showOrder(Model model,HttpSession session) {
+        Users user = (Users)session.getAttribute("LogUser");
+        List<Order> orderList = orderService.getByUserId(user.getId());
+        model.addAttribute("orderList",orderList);
+        return "orderList";
+    }
