@@ -32,3 +32,17 @@ public class OrderController {
         model.addAttribute("orderList",orderList);
         return "orderList";
     }
+
+    //获取列表
+    @RequestMapping("/jiesuan")
+    public String jiesuanOrder(@RequestParam("id") int id) {
+        Order order = orderService.getById(id);
+        order.setStatus(1);
+        if(orderService.updateOrderStatus(order)) {
+            Park park = parkService.getById(order.getPark_id());
+            park.setStatus(0);
+            parkService.updateCarStatus(park);
+        }
+        return "redirect:/order/showOrder";
+    }
+}
