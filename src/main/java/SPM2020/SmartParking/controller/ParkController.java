@@ -49,3 +49,10 @@ public class ParkController {
             model.addAttribute("carNum",carList.size());
         }
         return "list";
+    }
+    @RequestMapping("/detail")
+    public String editCar(@RequestParam("id") int id,Model model){
+        Park car = parkService.getById(id);
+        model.addAttribute("car",car);
+        return "detail";
+    }
