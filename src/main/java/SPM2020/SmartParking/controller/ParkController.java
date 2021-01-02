@@ -56,3 +56,20 @@ public class ParkController {
         model.addAttribute("car",car);
         return "detail";
     }
+    @RequestMapping("/buy")
+    public String buy(HttpSession session,@RequestParam("id") int id){
+        Park car = parkService.getById(id);
+        Users user = (Users)session.getAttribute("LogUser");
+        int p = user.getPoint();
+        car.setStatus(1);
+        if(parkService.updateCarStatus(car)) {
+            Order order =new Order();
+            order.setUser_id(user.getId());
+            order.setPark_id(id);
+            if(p>=100&&p<300) {
+                order.setTotal(car.getPrice()*0.9);
+            }else if(p>=300&&p<500) {
+                order.setTotal(car.getPrice()*0.8);
+            }else if(p>=500) {
+                order.setTotal(car.getPrice()*0.7);
+            }
