@@ -73,3 +73,11 @@ public class ParkController {
             }else if(p>=500) {
                 order.setTotal(car.getPrice()*0.7);
             }
+            if(orderService.addOrder(order)) {
+                user.setPoint(p+10);
+                userService.updatePoint(user);
+            }
+        }
+        return "redirect:/order/showOrder";
+    }
+}
