@@ -17,4 +17,9 @@ import com.imust.service.UserService;
 @RequestMapping("/user")
 
 public class UserController {
-}
+    @Autowired
+    private UserService userService;
+
+    //登陆
+    @RequestMapping("/login")
+    public String login(@ModelAttribute("users") Users users,HttpSession session,Model model) {
