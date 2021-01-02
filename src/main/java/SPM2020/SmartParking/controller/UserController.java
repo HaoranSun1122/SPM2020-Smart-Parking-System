@@ -37,3 +37,10 @@ public class UserController {
         }
         return "join";
     }
+    //查看个人信息
+    @RequestMapping("/user-show")
+    public String getById(@RequestParam("id")int id,Model model) {
+        Users userinfo = userService.getUserById(id);
+        model.addAttribute("userinfo",userinfo);
+        return "user-show";
+    }
