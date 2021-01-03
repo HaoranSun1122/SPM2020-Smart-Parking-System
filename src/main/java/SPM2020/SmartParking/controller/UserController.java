@@ -44,3 +44,16 @@ public class UserController {
         model.addAttribute("userinfo",userinfo);
         return "user-show";
     }
+    @RequestMapping("/logout")
+    public String logout(HttpSession session) {
+        session.removeAttribute("LogUser");
+        return "/join";
+    }
+    //注册用户
+    @RequestMapping("/user-save")
+    public String saveUser(@ModelAttribute("users") Users users){
+        if(userService.addUser(users)) {
+            return "register-ok";
+        }
+        return "404";
+    }
