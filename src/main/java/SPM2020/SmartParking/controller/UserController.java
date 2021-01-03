@@ -57,3 +57,12 @@ public class UserController {
         }
         return "404";
     }
+
+    //修改用户手机和邮箱
+    @RequestMapping("/update-user")
+    public String userUpdate(@ModelAttribute("users") Users user,Model model){
+        userService.updateUser(user);
+        Users userinfo = userService.getUserById(user.getId());
+        model.addAttribute("userinfo",userinfo);
+        return "user-show";
+    }
