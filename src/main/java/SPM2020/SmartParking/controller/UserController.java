@@ -66,3 +66,23 @@ public class UserController {
         model.addAttribute("userinfo",userinfo);
         return "user-show";
     }
+    //修改密码页
+    @RequestMapping("/password")
+    public String password() {
+        return "password";
+    }
+    //修改密码
+    @RequestMapping("/updatePwd")
+    public String updatePwd(Model model,@RequestParam("id") int id,@RequestParam("newpassword") String newpassword,@RequestParam("oldpassword") String oldpassword) {
+        Users userinfo = userService.getUserById(id);
+        if(oldpassword.equals(userinfo.getPassword())) {
+            userinfo.setPassword(newpassword);
+            if(userService.updateUserPwd(userinfo)) {
+                return "redirect:/user/logout";
+            }
+        }else {
+            model.addAttribute("usermsg","原密码错误");
+        }
+        return "password";
+    }
+}
