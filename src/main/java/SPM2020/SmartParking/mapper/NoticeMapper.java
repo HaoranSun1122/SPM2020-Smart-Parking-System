@@ -1,4 +1,11 @@
-package SPM2020.SmartParking.mapper;
+package com.imust.entity;
 
-public class NoticeMapper {
-}
+import java.util.Date;
+
+public class Notice {
+
+    private int id;
+    private String title;
+    private String content;
+    private String admin_name;
+    private Date createDate;
