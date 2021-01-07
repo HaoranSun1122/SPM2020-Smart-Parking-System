@@ -66,3 +66,26 @@ public class Order {
     public int getStatus() {
         return status;
     }
+    public void setStatus(int status) {
+        this.status = status;
+    }
+    public Date getCreateDate() {
+        return createDate;
+    }
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+    public double getTotal() {
+        return total;
+    }
+    public void setTotal(double total) {
+        this.total = total;
+    }
+    public String getCode() {
+        return code;
+    }
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+}
