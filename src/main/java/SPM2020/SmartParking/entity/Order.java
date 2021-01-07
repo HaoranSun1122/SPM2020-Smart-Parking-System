@@ -14,3 +14,55 @@ public class Order {
     private int user_id;
     private int park_id;
     private int status;
+    private Date createDate;
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getUser_name() {
+        return user_name;
+    }
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
+    }
+    public String getPhone() {
+        return phone;
+    }
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+    public String getPlate_num() {
+        return plate_num;
+    }
+    public void setPlate_num(String plate_num) {
+        this.plate_num = plate_num;
+    }
+    public String getPark_name() {
+        return park_name;
+    }
+    public void setPark_name(String park_name) {
+        this.park_name = park_name;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public int getUser_id() {
+        return user_id;
+    }
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
+    }
+    public int getPark_id() {
+        return park_id;
+    }
+    public void setPark_id(int park_id) {
+        this.park_id = park_id;
+    }
+    public int getStatus() {
+        return status;
+    }
