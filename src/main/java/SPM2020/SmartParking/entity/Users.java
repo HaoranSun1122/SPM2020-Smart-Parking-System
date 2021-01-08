@@ -23,3 +23,19 @@ public class Users {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public String getPlate_num() {
+        return plate_num;
+    }
+    public void setPlate_num(String plate_num) {
+        this.plate_num = plate_num;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public int getId() {
+        return id;
+    }
