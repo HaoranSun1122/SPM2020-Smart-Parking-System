@@ -39,3 +39,26 @@ public class Users {
     public int getId() {
         return id;
     }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public Date getCreateDate() {
+        return createDate;
+    }
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+    public int getStauts() {
+        return stauts;
+    }
+    public void setStauts(int stauts) {
+        this.stauts = stauts;
+    }
+    public int getPoint() {
+        return point;
+    }
+    public void setPoint(int point) {
+        this.point = point;
+    }
+
+}
