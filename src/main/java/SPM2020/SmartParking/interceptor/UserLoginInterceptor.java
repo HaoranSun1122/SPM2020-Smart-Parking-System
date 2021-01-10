@@ -21,3 +21,22 @@ public class UserLoginInterceptor implements HandlerInterceptor{
         // TODO Auto-generated method stub
 
     }
+
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+            throws Exception {
+        // TODO Auto-generated method stub
+
+        //获取session
+        HttpSession session = request.getSession(true);
+        //判断用户是否存在，不存在就跳转到登录界面
+        if(session.getAttribute("LogUser") == null){
+            response.sendRedirect(request.getContextPath()+"/join");
+            return false;
+        }else{
+            session.setAttribute("LogUser", session.getAttribute("LogUser"));
+            return true;
+        }
+    }
+
+}
