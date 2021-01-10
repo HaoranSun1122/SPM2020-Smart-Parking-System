@@ -22,3 +22,22 @@ public class LoginInterceptor implements HandlerInterceptor{
         // TODO Auto-generated method stub
 
     }
+
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+            throws Exception {
+        // TODO Auto-generated method stub
+
+        //获取session
+        HttpSession session = request.getSession(true);
+        //判断用户是否存在，不存在就跳转到登录界面
+        if(session.getAttribute("LogAdmin") == null){
+            response.sendRedirect(request.getContextPath()+"/login");
+            return false;
+        }else{
+            session.setAttribute("LogAdmin", session.getAttribute("LogAdmin"));
+            return true;
+        }
+    }
+
+}
