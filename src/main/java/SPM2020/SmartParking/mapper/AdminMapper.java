@@ -20,3 +20,8 @@ public interface AdminMapper {
     //删除信息
     @Delete("delete from ADMIN where id=#{id}")
     public void delete(int id);
+
+    //修改
+    @Update("update Admin set name=#{name},password=#{password} where id=#{id}")
+    public void update(Admin admin);
+
