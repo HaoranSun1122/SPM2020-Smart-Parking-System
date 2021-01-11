@@ -16,3 +16,7 @@ public interface AdminMapper {
     //添加信息
     @Insert("insert into ADMIN(name,password,createDate) values(#{name},#{password},SYSDATE())")
     public void insert(Admin admin);
+
+    //删除信息
+    @Delete("delete from ADMIN where id=#{id}")
+    public void delete(int id);
