@@ -33,3 +33,12 @@ public interface AdminMapper {
     @Select("select * from ADMIN where id=#{id}")
     Admin findById(@Param("id") int id);
 
+    @Select("select * from ADMIN")
+    List<Admin> findAll();
+
+    //登陆
+    @Select("select * from ADMIN where name=#{name} and password = #{password}")
+    List<Admin> login(Admin admin);
+}
+
+
