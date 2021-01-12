@@ -25,3 +25,11 @@ public interface AdminMapper {
     @Update("update Admin set name=#{name},password=#{password} where id=#{id}")
     public void update(Admin admin);
 
+    //查询信息
+    @Select("select * from ADMIN where name like #{name}")
+    List<Admin> findByName(@Param("name") String name);
+
+    //查询信息
+    @Select("select * from ADMIN where id=#{id}")
+    Admin findById(@Param("id") int id);
+
