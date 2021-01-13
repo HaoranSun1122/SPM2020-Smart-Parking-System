@@ -16,3 +16,8 @@ public interface MessageMapper {
     //添加信息
     @Insert("insert into Message(content,createDate,user_id,user_name) values(#{content},SYSDATE(),#{user_id},#{user_name})")
     public void insertMessage(Message message);
+
+
+    //删除信息
+    @Delete("delete from Message where id=#{id}")
+    public void deleteMessage(int id);
