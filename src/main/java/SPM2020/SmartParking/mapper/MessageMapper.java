@@ -21,3 +21,7 @@ public interface MessageMapper {
     //删除信息
     @Delete("delete from Message where id=#{id}")
     public void deleteMessage(int id);
+
+    //查询信息
+    @Select("select * from Message where content like #{content}")
+    List<Message> findByContent(@Param("content") String content);
