@@ -12,3 +12,9 @@ import org.apache.ibatis.annotations.Update;
 import com.imust.entity.Notice;
 @Mapper
 public interface NoticeMapper {
+
+    //添加信息
+    @Insert("insert into Notice(title,content,createDate,admin_id,admin_name) values(#{title},#{content},SYSDATE(),#{admin_id},#{admin_name})")
+    public void insertNotice(Notice notice);
+
+}
