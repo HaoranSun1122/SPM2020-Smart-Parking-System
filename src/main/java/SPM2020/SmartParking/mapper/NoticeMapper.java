@@ -17,4 +17,9 @@ public interface NoticeMapper {
     @Insert("insert into Notice(title,content,createDate,admin_id,admin_name) values(#{title},#{content},SYSDATE(),#{admin_id},#{admin_name})")
     public void insertNotice(Notice notice);
 
+    //删除信息
+    @Delete("delete from Notice where id=#{id}")
+    public void deleteNoticeById(int id);
+
+
 }
