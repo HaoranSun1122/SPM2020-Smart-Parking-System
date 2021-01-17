@@ -25,3 +25,12 @@ public interface MessageMapper {
     //查询信息
     @Select("select * from Message where content like #{content}")
     List<Message> findByContent(@Param("content") String content);
+
+    @Select("select * from Message")
+    List<Message> findAllMessage();
+    @Select("select * from Message where user_id=#{id}")
+    List<Message> findMyMessage(@Param("id") int id);
+    //修改信息
+    @Update("update Message set answer=#{answer},answerDate=SYSDATE(),admin_id=#{admin_id},admin_name=#{admin_name} where id=#{id}")
+    public void updateMessage(Message message);
+}
