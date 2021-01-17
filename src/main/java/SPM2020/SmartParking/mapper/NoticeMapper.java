@@ -21,5 +21,10 @@ public interface NoticeMapper {
     @Delete("delete from Notice where id=#{id}")
     public void deleteNoticeById(int id);
 
+    //修改信息
+    @Update("update Notice set title=#{title},content=#{content} where id=#{id}")
+    public void updateNotice(Notice notice);
+
+
 
 }
