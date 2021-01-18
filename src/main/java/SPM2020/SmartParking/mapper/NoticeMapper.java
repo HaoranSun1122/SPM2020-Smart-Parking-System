@@ -30,19 +30,11 @@ public interface NoticeMapper {
     List<Notice> findByTitle(@Param("title") String title);
 
     //查询信息
-    @Select("select * from Notice where title like #{title}")
-    List<Notice> findByTitle(@Param("title") String title);
-
-    //查询信息
     @Select("select * from Notice where id=#{id}")
     Notice findById(@Param("id") int id);
 
     @Select("select * from Notice order by createDate desc limit 0,10")
     List<Notice> findAllNotice();
-
-
-
-
 
 
 }
