@@ -25,6 +25,15 @@ public interface NoticeMapper {
     @Update("update Notice set title=#{title},content=#{content} where id=#{id}")
     public void updateNotice(Notice notice);
 
+    //查询信息
+    @Select("select * from Notice where title like #{title}")
+    List<Notice> findByTitle(@Param("title") String title);
+
+    //查询信息
+    @Select("select * from Notice where title like #{title}")
+    List<Notice> findByTitle(@Param("title") String title);
+
+
 
 
 }
