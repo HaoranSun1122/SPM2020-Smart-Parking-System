@@ -24,4 +24,8 @@ public interface OrderMapper {
     //查询信息
     @Select("select o.status,u.plate_num,c.price,o.code,o.createDate,o.id,o.total,u.name user_name,u.phone,c.name park_name from Orders o,User u,Park c where o.user_id=u.id and o.park_id=c.id and user_id=#{id} order by createDate desc")
     List<Order> findByUserId(@Param("id") int id);
+
+    @Select("select * from Orders where id = #{id}")
+    Order findById(@Param("id") int id);
+
 	
