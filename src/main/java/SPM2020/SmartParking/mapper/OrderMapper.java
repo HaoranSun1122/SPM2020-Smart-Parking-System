@@ -28,4 +28,9 @@ public interface OrderMapper {
     @Select("select * from Orders where id = #{id}")
     Order findById(@Param("id") int id);
 
+    //添加信息
+    @Insert("insert into Orders(user_id,park_id,total,code,createDate,status) values(#{user_id},#{park_id},#{total},UUID(),SYSDATE(),0)")
+    public void insertOrder(Order order);
+
+
 	
