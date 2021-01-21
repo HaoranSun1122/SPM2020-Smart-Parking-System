@@ -37,5 +37,11 @@ public interface OrderMapper {
     public void deleteOrder(int id);
 
 
+    //修改信息
+    @Update("update Orders set status=#{status} where id=#{id}")
+    public void updateStatus(Order order);
+}
+
+
 
 	
