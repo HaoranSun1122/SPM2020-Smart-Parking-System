@@ -32,5 +32,10 @@ public interface OrderMapper {
     @Insert("insert into Orders(user_id,park_id,total,code,createDate,status) values(#{user_id},#{park_id},#{total},UUID(),SYSDATE(),0)")
     public void insertOrder(Order order);
 
+    //删除信息
+    @Delete("delete from Orders where id=#{id}")
+    public void deleteOrder(int id);
+
+
 
 	
