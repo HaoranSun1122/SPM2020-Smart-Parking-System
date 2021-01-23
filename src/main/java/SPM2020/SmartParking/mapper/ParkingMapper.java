@@ -19,3 +19,6 @@ public interface ParkMapper {
 
     @Select("select * from Park where  status = #{status}")
     List<Park> findAllParkByKey(@Param("status") int status);
+
+    @Select("select * from Park where  name like #{key}")
+    List<Park> findParkByKey(@Param("key") String key);
