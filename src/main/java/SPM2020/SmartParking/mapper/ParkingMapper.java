@@ -12,3 +12,7 @@ import org.apache.ibatis.annotations.Update;
 import com.imust.entity.Park;
 @Mapper
 public interface ParkMapper {
+
+
+    @Select("select * from Park")
+    List<Park> findAllPark();
