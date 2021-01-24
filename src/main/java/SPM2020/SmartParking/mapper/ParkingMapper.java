@@ -25,3 +25,7 @@ public interface ParkMapper {
 
     @Select("select * from Park where id=#{id}")
     Park findCarById(@Param("id") int id);
+
+    //添加信息
+    @Insert("insert into Park(name,price,status) values(#{name},#{price},0)")
+    public void insertCar(Park car);
