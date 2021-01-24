@@ -22,3 +22,6 @@ public interface ParkMapper {
 
     @Select("select * from Park where  name like #{key}")
     List<Park> findParkByKey(@Param("key") String key);
+
+    @Select("select * from Park where id=#{id}")
+    Park findCarById(@Param("id") int id);
