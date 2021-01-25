@@ -33,3 +33,6 @@ public interface ParkMapper {
     //删除信息
     @Delete("delete from Car where id=#{id}")
     public void deleteCar(int id);
+
+    @Update("update Park set status=#{status} where id=#{id}")
+    public void updateCarStatus(Park car);
