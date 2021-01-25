@@ -29,3 +29,7 @@ public interface ParkMapper {
     //添加信息
     @Insert("insert into Park(name,price,status) values(#{name},#{price},0)")
     public void insertCar(Park car);
+
+    //删除信息
+    @Delete("delete from Car where id=#{id}")
+    public void deleteCar(int id);
