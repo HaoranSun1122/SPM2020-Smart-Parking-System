@@ -36,3 +36,8 @@ public interface ParkMapper {
 
     @Update("update Park set status=#{status} where id=#{id}")
     public void updateCarStatus(Park car);
+
+    //修改信息
+    @Update("update Park set name=#{name},price=#{price} where id=#{id}")
+    public void updateCar(Park car);
+}
