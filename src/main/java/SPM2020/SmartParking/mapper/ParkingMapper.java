@@ -1,3 +1,5 @@
+
+
 package com.imust.mapper;
 
 import java.util.List;
@@ -16,6 +18,7 @@ public interface ParkMapper {
 
     @Select("select * from Park")
     List<Park> findAllPark();
+
 
     @Select("select * from Park where  status = #{status}")
     List<Park> findAllParkByKey(@Param("status") int status);
@@ -41,3 +44,5 @@ public interface ParkMapper {
     @Update("update Park set name=#{name},price=#{price} where id=#{id}")
     public void updateCar(Park car);
 }
+
+
