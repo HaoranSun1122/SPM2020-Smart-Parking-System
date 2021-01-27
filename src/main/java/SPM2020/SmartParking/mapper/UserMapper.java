@@ -11,3 +11,7 @@ import org.apache.ibatis.annotations.Update;
 import com.imust.entity.Users;
 @Mapper
 public interface UserMapper {
+
+    //添加信息
+    @Insert("insert into User(name,phone,plate_num,password,createDate,stauts) values(#{name},#{phone},#{plate_num},#{password},SYSDATE(),0)")
+    public void insertUsers(Users users);
