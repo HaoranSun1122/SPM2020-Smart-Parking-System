@@ -19,3 +19,7 @@ public interface UserMapper {
     //删除信息
     @Delete("delete from User where id=#{id}")
     public void deleteUserById(int id);
+
+    //修改信息
+    @Update("update user set stauts=#{stauts} where id=#{id}")
+    public void updateUserStauts(@Param("id") int id,@Param("stauts") int stauts);
