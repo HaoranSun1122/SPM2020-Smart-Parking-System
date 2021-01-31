@@ -23,3 +23,6 @@ public interface UserMapper {
     //修改信息
     @Update("update user set stauts=#{stauts} where id=#{id}")
     public void updateUserStauts(@Param("id") int id,@Param("stauts") int stauts);
+
+    @Update("update user set point=#{point} where id=#{id}")
+    public void updateUserPoint(Users user);
