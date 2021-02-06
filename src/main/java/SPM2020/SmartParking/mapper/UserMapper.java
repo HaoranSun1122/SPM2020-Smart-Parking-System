@@ -34,3 +34,8 @@ public interface UserMapper {
     //查询信息
     @Select("select * from user where name like #{name}")
     List<Users> findByName(@Param("name") String name);
+    @Select("select * from user")
+    List<Users> findAllUser();
+
+    @Select("select * from user where id=#{id}")
+    Users findUserById(@Param("id") int id);
