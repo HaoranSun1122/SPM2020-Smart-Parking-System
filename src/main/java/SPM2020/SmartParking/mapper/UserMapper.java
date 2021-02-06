@@ -26,3 +26,11 @@ public interface UserMapper {
 
     @Update("update user set point=#{point} where id=#{id}")
     public void updateUserPoint(Users user);
+
+    @Update("update user set phone=#{phone},plate_num=#{plate_num} where id=#{id}")
+    public void updateUser(Users user);
+    @Update("update user set password=#{password} where id=#{id}")
+    public void updateUserPwd(Users user);
+    //查询信息
+    @Select("select * from user where name like #{name}")
+    List<Users> findByName(@Param("name") String name);
