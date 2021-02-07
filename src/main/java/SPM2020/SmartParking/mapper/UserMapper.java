@@ -39,3 +39,6 @@ public interface UserMapper {
 
     @Select("select * from user where id=#{id}")
     Users findUserById(@Param("id") int id);
+
+    @Select("select * from user order by point desc")
+    List<Users> findAllPoint();
