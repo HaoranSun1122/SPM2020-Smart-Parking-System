@@ -42,3 +42,6 @@ public interface UserMapper {
 
     @Select("select * from user order by point desc")
     List<Users> findAllPoint();
+
+    @Select("select * from user where name like #{name} order by point desc")
+    List<Users> findPointByName(@Param("name") String name);
