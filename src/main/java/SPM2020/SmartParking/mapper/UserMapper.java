@@ -45,3 +45,8 @@ public interface UserMapper {
 
     @Select("select * from user where name like #{name} order by point desc")
     List<Users> findPointByName(@Param("name") String name);
+
+    //登陆使用
+    @Select("select * from user where name=#{name} and password = #{password}")
+    List<Users> findUserByNameAndPwd(@Param("name") String adminName,@Param("password") String password);
+}
