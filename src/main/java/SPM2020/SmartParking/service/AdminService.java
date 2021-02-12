@@ -21,3 +21,14 @@ public class AdminService {
         }
         return null;
     }
+
+    //添加管理员
+    public boolean addAdmin(Admin admin) {
+        try {
+            adminMapper.insert(admin);
+            return true;
+        } catch (Exception e) {
+            // TODO: handle exception
+            return false;
+        }
+    }
