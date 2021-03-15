@@ -1,4 +1,4 @@
-# SPM2020-BJMH
+# SPM2020-Sun Haoran
 
 ## Table of contents
 1. [Introduction](#introduction)
