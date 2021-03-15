@@ -71,6 +71,7 @@ Install the [Browser Plugin](https://www.mendeley.com/reference-management/web-i
 
 ### Software <a name="tools_software"/>
 For Software we can use:
+- IntelliJ IDEA 
 - Backend in Java
 - Git + GitHub as Version Control System
 - Jenkins
