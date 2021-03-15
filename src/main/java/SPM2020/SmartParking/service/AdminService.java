@@ -32,3 +32,13 @@ public class AdminService {
             return false;
         }
     }
+    //删除管理员
+    public boolean delAdmin(int id) {
+        try {
+            adminMapper.delete(id);
+            return true;
+        } catch (Exception e) {
+            // TODO: handle exception
+            return false;
+        }
+    }
