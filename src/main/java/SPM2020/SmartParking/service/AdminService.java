@@ -32,6 +32,7 @@ public class AdminService {
             return false;
         }
     }
+
     //删除管理员
     public boolean delAdmin(int id) {
         try {
@@ -53,3 +54,19 @@ public class AdminService {
             return false;
         }
     }
+
+    //通过id查找管理员
+    public Admin getAdminById(int id) {
+        return adminMapper.findById(id);
+    }
+
+    //通过name模糊查找管理员
+    public List<Admin> getAdminByName(String name) {
+        return adminMapper.findByName("%"+name+"%");
+    }
+
+    //查找全部
+    public List<Admin> getAllAdmin(){
+        return adminMapper.findAll();
+    }
+}
