@@ -42,3 +42,14 @@ public class AdminService {
             return false;
         }
     }
+
+    //修改管理员
+    public boolean updateAdmin(Admin admin) {
+        try {
+            adminMapper.update(admin);
+            return true;
+        } catch (Exception e) {
+            // TODO: handle exception
+            return false;
+        }
+    }

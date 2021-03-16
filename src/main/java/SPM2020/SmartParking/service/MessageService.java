@@ -15,3 +15,12 @@ public class MessageService {
     private MessageMapper messageMapper;
 
 //通过id修改状态
+public boolean updateMessage(Message message) {
+    try {
+        messageMapper.updateMessage(message);
+        return true;
+    } catch (Exception e) {
+        // TODO: handle exception
+        return false;
+    }
+}
