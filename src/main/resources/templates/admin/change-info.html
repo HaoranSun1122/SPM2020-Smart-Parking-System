@@ -47,25 +47,7 @@ $(function(){
 			},
 			password:{
 				required:true,
-				minlength:4,
-				maxlength:16
-			},
-			password2:{
-				required:true,
-				minlength:4,
-				maxlength:16,
-				equalTo: "#password"
-			},
-		},
-		onkeyup:false,
-		focusCleanup:true,
-		success:"valid",
-		submitHandler:function(form){
-			$(form).ajaxSubmit({
-				async : false,
-				success: function(data){
-					if(data.res==0){
-						layer.msg('修改成功!',{icon:1,time:1000});
+改成功!',{icon:1,time:1000});
 					}else{
 						layer.msg('修改失败!',{icon: 2,time:1000});
 					}

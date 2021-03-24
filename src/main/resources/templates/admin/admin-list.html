@@ -27,21 +27,5 @@
 				<th width="100">Operation</th>
 			</tr>
 		</thead>
-		<tbody>
-			<tr class="text-c" th:each="admin,adminStat : ${adminList}">
-				<td>
-				<span th:text="${adminStat.index+1}"></span>
-				<input type="hidden" th:value="${admin.id}" class="inp"/>
-				</td>
-				<td th:text="${admin.name}"></td>
-				<td th:text="${admin.password}"></td>
-				<td th:text="${#calendars.format(admin.createDate,'yyyy-MM-dd')}"></td>
-				<td class="td-manage">
-				<a title="Delete" href="javascript:;" onclick="admin_del(this)"
-				class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+
 
