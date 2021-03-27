@@ -46,20 +46,4 @@ public class IndexController {
     }
 
     @RequestMapping("/welcome")
-    public String welcome(HttpServletRequest request,Model model) {
-        String localAddr = request.getLocalAddr();    //取得服务器IP
-        int localPort = request.getLocalPort();    //取得服务器端口
-        String localName = request.getLocalName();    //取得服务器名称
-        String serverName = request.getServerName(); //服务器域名
-        Properties props=System.getProperties(); //系统属性
-        String javaVersion = props.getProperty("java.version");//操作系统的版本
-        String osName = props.getProperty("os.name");//操作系统的名称
-        model.addAttribute("localAddr",localAddr);
-        model.addAttribute("localPort",localPort);
-        model.addAttribute("localName",localName);
-        model.addAttribute("serverName",serverName);
-        model.addAttribute("osName",osName);
-        model.addAttribute("javaVersion",javaVersion);
-        return "admin/welcome";
-    }
-}
+

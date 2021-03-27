@@ -22,16 +22,7 @@ public class MessageController {
     private MessageService messageService;
 
     //添加留言
-    @RequestMapping("/message-save")
-    public String saveMessage(HttpSession session,@ModelAttribute("message") Message message,Model model){
-        Users user = (Users)session.getAttribute("LogUser");
-        message.setUser_id(user.getId());
-        message.setUser_name(user.getName());
-        messageService.addMessage(message);
-        List<Message> messageList = messageService.getMyMessage(user.getId());
-        model.addAttribute("messageList", messageList);
-        return "myMessage";
-    }
+
 
     //用户删除
     @RequestMapping("/delMsg")

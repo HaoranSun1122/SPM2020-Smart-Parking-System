@@ -61,7 +61,6 @@ public class AdminController {
         session.removeAttribute("LogAdmin");
         return "admin/login";
     }
-
     //获取管理员列表
     @RequestMapping("/admin-list")
     public String getAllAdmin(Model model) {

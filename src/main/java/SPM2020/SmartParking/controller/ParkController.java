@@ -29,13 +29,6 @@ public class ParkController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/car-select")
-    public String getCarByKey(Model model) {
-        List<Park> carList = parkService.getAll();
-        model.addAttribute("carList",carList);
-        model.addAttribute("carNum",carList.size());
-        return "list";
-    }
 
     @RequestMapping("/findCar")
     public String findCar(@RequestParam("status") int status,Model model) {

@@ -21,22 +21,7 @@ public class UserController {
     private UserService userService;
 
     //登陆
-    @RequestMapping("/login")
-    public String login(@ModelAttribute("users") Users users,HttpSession session,Model model) {
 
-        Users user = userService.login(users);
-        if(user!=null) {
-            if(user.getStauts()==0) {
-                session.setAttribute("LogUser", user);
-                return "redirect:/index";
-            }else {
-                model.addAttribute("msg", "该用户已被停用");
-            }
-        }else {
-            model.addAttribute("msg", "用户名或密码错误");
-        }
-        return "join";
-    }
     //查看个人信息
     @RequestMapping("/user-show")
     public String getById(@RequestParam("id")int id,Model model) {

@@ -19,12 +19,7 @@ public class NoticeController {
 
 
 
-    @RequestMapping("/notice-detail")
-    public String showNotice(@RequestParam("id") int id,Model model){
-        Notice notice = noticeService.getById(id);
-        model.addAttribute("notice",notice);
-        return "notice-detail";
-    }
+
 
 
 }
