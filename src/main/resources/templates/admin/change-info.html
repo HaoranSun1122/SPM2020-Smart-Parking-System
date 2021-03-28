@@ -47,6 +47,16 @@ $(function(){
 			},
 			password:{
 				required:true,
+				minlength:4,
+				maxlength:16
+			},
+			password2:{
+				required:true,
+				minlength:4,
+				maxlength:16,
+				equalTo: "#password"
+			},
+		},
 改成功!',{icon:1,time:1000});
 					}else{
 						layer.msg('修改失败!',{icon: 2,time:1000});
