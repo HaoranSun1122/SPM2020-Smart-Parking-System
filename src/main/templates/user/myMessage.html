@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/moban/css/index.css}"/>
+    <link rel="stylesheet" th:href="@{/moban/css/table.css}"/>
+	<script th:src="@{/moban/js/main.js}"></script>
+	<title>my message</title>
+</head>
+<style>
+	.help-main p {
+		line-height: 50px;
+	}
+</style>
+<body >
+
+<span th:replace="/common/head2 :: header"></span>
+
+<div class="help-wrap">
+	<div class="container clearfix">
+		<div class="bread">current location：
+			<a href="#">Home</a> >
+			<a href="#">Message management</a> >
+			<a href="#">my message</a>
+		</div>
+		<span th:replace="/common/userinfo :: userer"></span>
+		<div class="help-r fr">
+			<div class="help-item-title">message board</div>
+			<div class="help-main">
+				<table class="table table-hover">
+				<thead>
+					<tr >
+			        <th>Message content</th>
+			        <th>Message Time</th>
+			        <th>Administrator reply</th>
+			        <th>Responder</th>
+			        <th>Response Time</th>
+			        <th>operating</th>
+			      </tr>
+			      <tr>
+			        
+			      <tr th:each="message,messageStat : ${messageList}">
+				      <td th:text="${message.content}"></td>
+				      <td th:text="${#calendars.format(message.createDate,'yyyy-MM-dd')}"></td>
+				      <td th:text="${message.answer}"></td>
+				      <td th:text="${message.admin_name}"></td>
+				      <td>
+				      	<span th:if="${message.answerDate != null}" th:text="${#calendars.format(message.answerDate,'yyyy-MM-dd')}"></span>
+				      </td>
+				      <td>
+				      	<a th:href="@{'/message/delMsg?id='+${message.id}}">Delete</a>
+				      </td>
+			        </tr>
+				</tbody>
+			</table>
+			
+			</div><div class="help-item-title">I want to leave a message</div>
+			<div class="help-main">
+				<form action="/message/message-save" method="post">
+					<p><textarea rows="4" cols="150" name="content"></textarea></p>
+					<input style="float: right;" class="save" type="submit" value="message to admin"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<span th:replace="/common/foot :: footer"></span>
+
+</body>
+</html>
