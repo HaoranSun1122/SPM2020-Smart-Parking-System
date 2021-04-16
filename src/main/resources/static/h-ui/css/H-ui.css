@@ -3567,7 +3567,7 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus{color: #fff;text-deco
 				<p>对话框内容…</p>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-primary">确定</button> <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+				<button class="btn btn-primary">Confirm</button> <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 			</div>
 		</div>
 	</div>
@@ -3786,8 +3786,8 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus{color: #fff;text-deco
 			</div>
 		</div>
 		<div class="modal-footer">
-			<button class="btn btn-primary radius">确定</button>
-			<button class="btn btn-default radius ml-10" data-dismiss="modal" aria-hidden="true">取消</button>
+			<button class="btn btn-primary radius">Confirm</button>
+			<button class="btn btn-default radius ml-10" data-dismiss="modal" aria-hidden="true">Cancel</button>
 		</div>
 	</div>
 	*/
