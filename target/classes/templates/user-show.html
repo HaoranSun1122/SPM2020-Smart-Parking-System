@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/moban/css/index.css}"/>
+	<script th:src="@{/moban/js/main.js}"></script>
+	<title>Personal information</title>
+</head>
+<style>
+	.help-main p {
+		line-height: 50px;
+	}
+</style>
+<body >
+
+<span th:replace="/common/head2 :: header"></span>
+
+<div class="help-wrap">
+	<div class="container clearfix">
+		<div class="bread">current location：
+			<a href="#">Home</a> >
+			<a href="#">Personal center</a> >
+			<a href="#">Personal information</a>
+		</div>
+		
+		<span th:replace="/common/userinfo :: userer"></span>
+		
+		<div class="help-r fr">
+			<div class="help-item-title">Personal information</div>
+			<div class="help-main">
+				<form action="/user/update-user" method="post">
+					<input type="hidden" name="id" th:value="${userinfo.id}" />
+					<p><span class="nice">username：</span><span th:text="${userinfo.name}"></span>
+					</p>
+					<p>
+						<span class="nice">account credits：</span>
+						<input readonly="readonly" type="text" th:value="${userinfo.point}">
+					<span class="nice">Enjoy discount：</span>
+					<input th:if="${userinfo.point<100}" readonly="readonly" type="text" value="No discount">
+					<input th:if="${userinfo.point>=100&&userinfo.point<300}" readonly="readonly" type="text" value="10% off">
+					<input th:if="${userinfo.point>=300&&userinfo.point<500}" readonly="readonly" type="text" value="20% off">
+					<input th:if="${userinfo.point>=500}" readonly="readonly" type="text" value="30% off">
+					<span style="color: red">Note: 10% off more than 300</span>
+					</p>
+					<p><span class="nice">contact number：</span>
+					<input type="text" name="phone" th:value="${userinfo.phone}">
+					<span class="nice">License plate number：</span>
+					<input type="text" name="plate_num" th:value="${userinfo.plate_num}"></p>
+					<input class="save" type="submit" value="modify"/>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<span th:replace="/common/foot :: footer"></span>
+
+</body>
+</html>

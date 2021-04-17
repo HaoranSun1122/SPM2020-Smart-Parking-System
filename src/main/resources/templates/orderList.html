@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/moban/css/index.css}"/>
+    <link rel="stylesheet" th:href="@{/moban/css/table.css}"/>
+	<script th:src="@{/moban/js/jquery-1.11.2.min.js}"></script>
+	<script th:src="@{/moban/js/main.js}"></script>
+	<title>My Order</title>
+</head>
+<style>
+	.help-main p {
+		line-height: 50px;
+	}
+</style>
+<body >
+
+<span th:replace="/common/head2 :: header"></span>
+
+<div class="help-wrap">
+	<div class="container clearfix">
+		<div class="bread">current location：
+			<a href="#">Home</a> >
+			<a href="#">Order management</a> >
+			<a href="#">My Order</a>
+		</div>
+		<span th:replace="/common/userinfo :: userer"></span>
+		<div class="help-r fr">
+			<div class="help-item-title">Tickets bought</div>
+			<div class="help-main">
+				<table class="table table-hover" th:if="${orderList}">
+				<thead>
+					<tr >
+			        <th>Order number</th>
+			        <th>order time</th>
+			        <th>number plate</th>
+			        <th>Parking space number</th>
+			        <th>Parking price</th>
+			        <th>Amounts payable</th>
+			        <th>status</th>
+			        <th>operating</th>
+			      </tr>
+			      <tr>
+			        
+			      <tr th:each="order,orderStat : ${orderList}">
+				      <td th:text="${order.code}"></td>
+				      <td th:text="${#calendars.format(order.createDate,'yyyy-MM-dd')}"></td>
+				      <td th:text="${order.plate_num}"></td>
+				      <td th:text="${order.park_name}"></td>
+				      <td th:text="${order.price}"></td>
+				      <td th:text="${order.total}"></td>
+				      <td>
+				      	<span th:if="${order.status==0}" style="color: red">Pending payment</span>
+				      	<span th:if="${order.status==1}" style="color: green;">Order completed</span>
+				      </td>
+				      <td>
+				      	<a th:if="${order.status==0}"  th:href="@{'/order/jiesuan?id='+${order.id}}">Settlement</a>
+				      	<a th:if="${order.status==1}"  th:href="@{'/order/jiesuan?id='+${order.id}}">delete</a>
+				      </td>
+			        </tr>
+				</tbody>
+			</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<span th:replace="/common/foot :: footer"></span>
+</body>
+</html>
