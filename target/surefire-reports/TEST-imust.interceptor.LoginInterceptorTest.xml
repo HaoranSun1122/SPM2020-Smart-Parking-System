@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="imust.interceptor.LoginInterceptorTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-8HM4KQ5"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="CATALINA_HOME" value="E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="DESKTOP-8HM4KQ5"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="QT_DEVICE_PIXEL_RATIO" value="auto"/>
+    <property name="JOB_NAME" value="pakringSun"/>
+    <property name="COMPUTERNAME" value="DESKTOP-8HM4KQ5"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="SmmSu"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ETHEREUM_SOCKET" value="\\.\pipe\geth.ipc"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 9, GenuineIntel"/>
+    <property name="=E:" value="E:\UNICAM\SPM\tool\apache-tomcat-8.0.33\apache-tomcat-8.0.33\webapps"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\SmmSu\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/15/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="CONDA_EXE" value="D:\Conda\Scripts\conda.exe"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-pakringSun-15"/>
+    <property name="PYTHONPATH" value="D:\SUMO\tools\"/>
+    <property name="CONDA_SHLVL" value="0"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\SmmSu\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.13.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 50583"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="9ae4935095dbe155"/>
+    <property name="PT7HOME" value="D:\Cisco Packet Tracer 7.3.0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="D:\Conda\condabin;D:\python3.6/Scripts;D:\python3.6;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node.exe;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Git\cmd;C:\Program Files\Geth;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\lib;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;E:\UNICAM\ESP\C\mingw64\bin;D:\SUMO\bin\;D:\SUMO\tools\;D:\Go\bin;D:\TDM-GCC-64\TDM-GCC-64\bin;C:\Users\SmmSu\.cargo\bin;D:\python\py3.7\Scripts\;D:\python\py3.7\;D:\python3.6\Scripts\;D:\python3.6\;D:\python\Scripts\;D:\python\;C:\Users\SmmSu\AppData\Local\Microsoft\WindowsApps;C:\Users\SmmSu\AppData\Roaming\npm;D:\Multipass\bin;D:\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;&quot;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;&quot;;C:\Users\SmmSu\.dotnet\tools;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;C:\Users\SmmSu\AppData\Local\Pandoc\;E:\UNICAM\ESP\C\bin;C:\Users\SmmSu\AppData\Local\GitHubDesktop\bin;C:\Users\SmmSu\go\bin;D:\GoLand 2020.3.4\bin;"/>
+    <property name="GIT_COMMIT" value="2e24fc2d004552898269bd934f02288911b6a78b"/>
+    <property name="java.io.tmpdir" value="C:\Users\SmmSu\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\SmmSu\AppData\Roaming"/>
+    <property name="user.language" value="zh"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="GOPATH" value="C:\Users\SmmSu\go"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/pakringSun/15/"/>
+    <property name="M2_HOME" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="=C:" value="C:\Users\SmmSu"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="SUMO_HOME" value="D:\SUMO\"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#15"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59"/>
+    <property name="HUDSON_SERVER_COOKIE" value="9ae4935095dbe155"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\SmmSu\.jenkins\workspace\pakringSun@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\SmmSu"/>
+    <property name="mysql" value="MYSQL_HOME=C:\Program Files\MySQL\MySQL Server 5.7"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="15"/>
+    <property name="maven3.interceptor" value="C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin;D:\Conda\condabin;D:\python3.6/Scripts;D:\python3.6;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node.exe;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Git\cmd;C:\Program Files\Geth;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\lib;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;E:\UNICAM\ESP\C\mingw64\bin;D:\SUMO\bin\;D:\SUMO\tools\;D:\Go\bin;D:\TDM-GCC-64\TDM-GCC-64\bin;C:\Users\SmmSu\.cargo\bin;D:\python\py3.7\Scripts\;D:\python\py3.7\;D:\python3.6\Scripts\;D:\python3.6\;D:\python\Scripts\;D:\python\;C:\Users\SmmSu\AppData\Local\Microsoft\WindowsApps;C:\Users\SmmSu\AppData\Roaming\npm;D:\Multipass\bin;D:\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;&quot;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;&quot;;C:\Users\SmmSu\.dotnet\tools;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;C:\Users\SmmSu\AppData\Local\Pandoc\;E:\UNICAM\ESP\C\bin;C:\Users\SmmSu\AppData\Local\GitHubDesktop\bin;C:\Users\SmmSu\go\bin;D:\GoLand 2020.3.4\bin;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="CONDA_PATH" value="D:\Conda\Scripts;D:\Conda;D:\Conda\Library"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/pakringSun/"/>
+    <property name="CONDA_BAT" value="D:\Conda\condabin\conda.bat"/>
+    <property name="MYSQL_HOME" value="C:\Program Files\MySQL\MySQL Server 5.7"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="2e24fc2d004552898269bd934f02288911b6a78b"/>
+    <property name="OneDrive" value="C:\Users\SmmSu\OneDrive"/>
+    <property name="GIT_BRANCH" value="origin/main"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/15/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\SmmSu\.jenkins"/>
+    <property name="BUILD_ID" value="15"/>
+    <property name="TEMP" value="C:\Users\SmmSu\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="9e09"/>
+    <property name="HUDSON_HOME" value="C:\Users\SmmSu\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin"/>
+    <property name="MOZ_PLUGIN_PATH" value="D:\FOXIT PHANTOM\plugins\"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-8HM4KQ5"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/15/display/redirect?page=artifacts"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\SmmSu"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/display/redirect"/>
+    <property name="java.ext.dirs" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="branch_name" value="main"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\SmmSu"/>
+    <property name="USERNAME" value="SmmSu"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="E:\UNICAM\SPM\SPM2020-Smart-Parking-System2\SPM2020-Smart-Parking-System"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\SmmSu\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="Path;" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\lib;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.class.path" value="C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.13.jar;C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\SmmSu\.jenkins\workspace\pakringSun"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/15/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="CMAKE_PATH" value="D:\Cmake\bin"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="sun.boot.class.path" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\resources.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\rt.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\sunrsasign.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\jsse.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\jce.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\charsets.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\lib\jfr.jar;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="NODE_PATH" value="C:\Program Files\nodejs\node.exe"/>
+    <property name="TOMCAT_HOME" value="E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59"/>
+    <property name="user.country" value="CN"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="maven.home" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
+    <property name="JOB_BASE_NAME" value="pakringSun"/>
+    <property name="GoLand" value="D:\GoLand 2020.3.4\bin;"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/HaoranSun1122/SPM2020-Smart-Parking-System.git"/>
+  </properties>
+  <testcase name="testPreHandle" classname="imust.interceptor.LoginInterceptorTest" time="0"/>
+  <testcase name="testAfterCompletion" classname="imust.interceptor.LoginInterceptorTest" time="0"/>
+  <testcase name="testPostHandle" classname="imust.interceptor.LoginInterceptorTest" time="0"/>
+</testsuite>

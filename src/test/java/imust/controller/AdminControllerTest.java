@@ -103,68 +103,68 @@ public void testLogout() throws Exception {
  *
 * 
 */ 
-@Test
-public void testGetAllAdmin() throws Exception {
-    MvcResult mvcResult = mockMvc
-            .perform(// 1
-                    MockMvcRequestBuilders.get("/admin/admin-list") // 2
-                    //.param("name","getList")        // 3
-            )
-            .andReturn();// 4
-
-    int status = mvcResult.getResponse().getStatus(); // 5
-    String responseString = mvcResult.getResponse().getContentAsString(); // 6
-
-    Assert.assertEquals("请求错误", 200, status); // 7
-
-//TODO: Test goes here... 
-} 
+//@Test
+//public void testGetAllAdmin() throws Exception {
+//    MvcResult mvcResult = mockMvc
+//            .perform(// 1
+//                    MockMvcRequestBuilders.get("/admin/admin-list") // 2
+//                    //.param("name","getList")        // 3
+//            )
+//            .andReturn();// 4
+//
+//    int status = mvcResult.getResponse().getStatus(); // 5
+//    String responseString = mvcResult.getResponse().getContentAsString(); // 6
+//
+//    Assert.assertEquals("请求错误", 200, status); // 7
+//
+////TODO: Test goes here...
+//}
 
 /** 
 * 
 * Method: getByName(@RequestParam("nameTmp")String name, Model model) 
 * 
 */ 
-@Test
-public void testGetByName() throws Exception {
-    MvcResult mvcResult = mockMvc
-            .perform(// 1
-                    MockMvcRequestBuilders.get("/admin/findAdminByName") // 2
-                    //.param("name","getList")        // 3
-            )
-            .andReturn();// 4
-
-    int status = mvcResult.getResponse().getStatus(); // 5
-    String responseString = mvcResult.getResponse().getContentAsString(); // 6
-
-    Assert.assertEquals("请求错误", 200, status); // 7
-
-
-
-//TODO: Test goes here... 
-} 
+//@Test
+//public void testGetByName() throws Exception {
+//    MvcResult mvcResult = mockMvc
+//            .perform(// 1
+//                    MockMvcRequestBuilders.get("/admin/findAdminByName") // 2
+//                    //.param("name","getList")        // 3
+//            )
+//            .andReturn();// 4
+//
+//    int status = mvcResult.getResponse().getStatus(); // 5
+//    String responseString = mvcResult.getResponse().getContentAsString(); // 6
+//
+//    Assert.assertEquals("请求错误", 200, status); // 7
+//
+//
+//
+////TODO: Test goes here...
+//}
 
 /** 
 * 
 * Method: addAdmin() 
 * 
 */ 
-@Test
-public void testAddAdmin() throws Exception {
-    MvcResult mvcResult = mockMvc
-            .perform(// 1
-                    MockMvcRequestBuilders.get("/admin/admin") // 2
-                    //.param("name","getList")        // 3
-            )
-            .andReturn();// 4
-
-    int status = mvcResult.getResponse().getStatus(); // 5
-    String responseString = mvcResult.getResponse().getContentAsString(); // 6
-
-    Assert.assertEquals("请求错误", 200, status); // 7
-
-//TODO: Test goes here... 
-} 
+//@Test
+//public void testAddAdmin() throws Exception {
+//    MvcResult mvcResult = mockMvc
+//            .perform(// 1
+//                    MockMvcRequestBuilders.get("/admin/admin") // 2
+//                    //.param("name","getList")        // 3
+//            )
+//            .andReturn();// 4
+//
+//    int status = mvcResult.getResponse().getStatus(); // 5
+//    String responseString = mvcResult.getResponse().getContentAsString(); // 6
+//
+//    Assert.assertEquals("请求错误", 200, status); // 7
+//
+////TODO: Test goes here...
+//}
 
 /** 
 * 
