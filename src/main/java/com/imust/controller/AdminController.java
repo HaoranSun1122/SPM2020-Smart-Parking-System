@@ -53,6 +53,8 @@ public class AdminController {
 		}else {
 			model.addAttribute("msg", "Username or password is incorrect!");
 			return "admin/login";
+
+
 		}
 	}
 	
