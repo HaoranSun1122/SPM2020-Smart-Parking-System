@@ -43,9 +43,9 @@
 				<span class="label radius" th:if="${user.stauts}!=0">Unabled</span></td>
 				<td class="td-manage">
 				<a th:if="${user.stauts}==0" style="text-decoration:none" onClick="admin_stop(this)" 
-				href="javascript:;" title="停用"><i class="Hui-iconfont">&#xe631;</i></a>
+				href="javascript:;" title="Stop"><i class="Hui-iconfont">&#xe631;</i></a>
 				<a th:if="${user.stauts}!=0" style="text-decoration:none" onClick="admin_start(this)"  
-				href="javascript:;" title="启用"><i class="Hui-iconfont">&#xe615;</i></a>
+				href="javascript:;" title="Active"><i class="Hui-iconfont">&#xe615;</i></a>
 				</td>
 			</tr>
 		</tbody>
