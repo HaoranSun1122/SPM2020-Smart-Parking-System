@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="imust.controller.AdminControllerTest" time="2.617" tests="34" errors="0" skipped="0" failures="0">
+<testsuite name="imust.controller.AdminControllerTest" time="4.174" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -33,29 +33,29 @@
     <property name="=E:" value="E:\UNICAM\SPM\tool\apache-tomcat-8.0.33\apache-tomcat-8.0.33\webapps"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\SmmSu\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/16/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/17/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="CONDA_EXE" value="D:\Conda\Scripts\conda.exe"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-pakringSun-16"/>
+    <property name="BUILD_TAG" value="jenkins-pakringSun-17"/>
     <property name="PYTHONPATH" value="D:\SUMO\tools\"/>
     <property name="CONDA_SHLVL" value="0"/>
     <property name="file.encoding" value="GBK"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\SmmSu\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.13.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53964"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven C:\Users\SmmSu\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.13.jar C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62751"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="9ae4935095dbe155"/>
     <property name="PT7HOME" value="D:\Cisco Packet Tracer 7.3.0"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="D:\Conda\condabin;D:\python3.6/Scripts;D:\python3.6;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node.exe;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Git\cmd;C:\Program Files\Geth;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\lib;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;E:\UNICAM\ESP\C\mingw64\bin;D:\SUMO\bin\;D:\SUMO\tools\;D:\Go\bin;D:\TDM-GCC-64\TDM-GCC-64\bin;C:\Users\SmmSu\.cargo\bin;D:\python\py3.7\Scripts\;D:\python\py3.7\;D:\python3.6\Scripts\;D:\python3.6\;D:\python\Scripts\;D:\python\;C:\Users\SmmSu\AppData\Local\Microsoft\WindowsApps;C:\Users\SmmSu\AppData\Roaming\npm;D:\Multipass\bin;D:\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;&quot;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;&quot;;C:\Users\SmmSu\.dotnet\tools;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;C:\Users\SmmSu\AppData\Local\Pandoc\;E:\UNICAM\ESP\C\bin;C:\Users\SmmSu\AppData\Local\GitHubDesktop\bin;C:\Users\SmmSu\go\bin;D:\GoLand 2020.3.4\bin;"/>
-    <property name="GIT_COMMIT" value="a4df8c92e2c5aae1a3b4ea8e1e0003fb44955d9d"/>
+    <property name="GIT_COMMIT" value="5b49e97484ad3194023d263a3fbc89ac560ec346"/>
     <property name="java.io.tmpdir" value="C:\Users\SmmSu\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\SmmSu\AppData\Roaming"/>
     <property name="user.language" value="zh"/>
     <property name="line.separator" value="&#10;"/>
     <property name="GOPATH" value="C:\Users\SmmSu\go"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/pakringSun/16/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/pakringSun/17/"/>
     <property name="M2_HOME" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven"/>
     <property name="=C:" value="C:\Users\SmmSu"/>
     <property name="java.vm.info" value="mixed mode"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="SUMO_HOME" value="D:\SUMO\"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#16"/>
+    <property name="BUILD_DISPLAY_NAME" value="#17"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CATALINA_BASE" value="E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59"/>
@@ -80,7 +80,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="16"/>
+    <property name="BUILD_NUMBER" value="17"/>
     <property name="maven3.interceptor" value="C:\Users\SmmSu\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.13.jar"/>
     <property name="java.library.path" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin;D:\Conda\condabin;D:\python3.6/Scripts;D:\python3.6;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node.exe;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Git\cmd;C:\Program Files\Geth;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\lib;E:\IDE\apache-tomcat-8.5.59\apache-tomcat-8.5.59\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;E:\UNICAM\ESP\C\mingw64\bin;D:\SUMO\bin\;D:\SUMO\tools\;D:\Go\bin;D:\TDM-GCC-64\TDM-GCC-64\bin;C:\Users\SmmSu\.cargo\bin;D:\python\py3.7\Scripts\;D:\python\py3.7\;D:\python3.6\Scripts\;D:\python3.6\;D:\python\Scripts\;D:\python\;C:\Users\SmmSu\AppData\Local\Microsoft\WindowsApps;C:\Users\SmmSu\AppData\Roaming\npm;D:\Multipass\bin;D:\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;&quot;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\bin;E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin;&quot;;C:\Users\SmmSu\.dotnet\tools;D:\Conda\Scripts;D:\Conda;D:\Conda\Library;C:\Users\SmmSu\AppData\Local\Pandoc\;E:\UNICAM\ESP\C\bin;C:\Users\SmmSu\AppData\Local\GitHubDesktop\bin;C:\Users\SmmSu\go\bin;D:\GoLand 2020.3.4\bin;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -91,12 +91,12 @@
     <property name="JOB_URL" value="http://localhost:8080/job/pakringSun/"/>
     <property name="CONDA_BAT" value="D:\Conda\condabin\conda.bat"/>
     <property name="MYSQL_HOME" value="C:\Program Files\MySQL\MySQL Server 5.7"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="2e24fc2d004552898269bd934f02288911b6a78b"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="a4df8c92e2c5aae1a3b4ea8e1e0003fb44955d9d"/>
     <property name="OneDrive" value="C:\Users\SmmSu\OneDrive"/>
     <property name="GIT_BRANCH" value="origin/main"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/16/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/17/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\SmmSu\.jenkins"/>
-    <property name="BUILD_ID" value="16"/>
+    <property name="BUILD_ID" value="17"/>
     <property name="TEMP" value="C:\Users\SmmSu\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -105,11 +105,12 @@
     <property name="PROCESSOR_REVISION" value="9e09"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\SmmSu\.jenkins"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="a4df8c92e2c5aae1a3b4ea8e1e0003fb44955d9d"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\SmmSu\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven/bin"/>
     <property name="MOZ_PLUGIN_PATH" value="D:\FOXIT PHANTOM\plugins\"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-8HM4KQ5"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/16/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/17/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="E:\UNICAM\SPM\tool\jdk1.8.0_151\jdk1.8.0_151"/>
@@ -138,12 +139,12 @@
     <property name="os.arch" value="amd64"/>
     <property name="WORKSPACE" value="C:\Users\SmmSu\.jenkins\workspace\pakringSun"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/16/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/pakringSun/17/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="SystemRoot" value="C:\Windows"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="CMAKE_PATH" value="D:\Cmake\bin"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="file.separator" value="\"/>
@@ -164,38 +165,38 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/HaoranSun1122/SPM2020-Smart-Parking-System.git"/>
   </properties>
-  <testcase name="testAddMessage" classname="imust.controller.AdminControllerTest" time="2.158"/>
-  <testcase name="testStopAdmin" classname="imust.controller.AdminControllerTest" time="0.018"/>
-  <testcase name="testFindOrderByKey" classname="imust.controller.AdminControllerTest" time="0.014"/>
-  <testcase name="testGetAllUserPoint" classname="imust.controller.AdminControllerTest" time="0.02"/>
-  <testcase name="testUpdateAdmin" classname="imust.controller.AdminControllerTest" time="0.037"/>
-  <testcase name="testEditAdmin" classname="imust.controller.AdminControllerTest" time="0.013"/>
-  <testcase name="testFindUserByName" classname="imust.controller.AdminControllerTest" time="0.016"/>
-  <testcase name="testLogin" classname="imust.controller.AdminControllerTest" time="0.016"/>
-  <testcase name="testGetAllOrder" classname="imust.controller.AdminControllerTest" time="0.026"/>
-  <testcase name="testGetAllUser" classname="imust.controller.AdminControllerTest" time="0.005"/>
-  <testcase name="testGetAllMessage" classname="imust.controller.AdminControllerTest" time="0.015"/>
-  <testcase name="testUpdateNotice" classname="imust.controller.AdminControllerTest" time="0.011"/>
-  <testcase name="testCarSave" classname="imust.controller.AdminControllerTest" time="0.013"/>
-  <testcase name="testSaveNotice" classname="imust.controller.AdminControllerTest" time="0.01"/>
-  <testcase name="testGetAllNotice" classname="imust.controller.AdminControllerTest" time="0.015"/>
-  <testcase name="testAddNotice" classname="imust.controller.AdminControllerTest" time="0.015"/>
-  <testcase name="testDelMessage" classname="imust.controller.AdminControllerTest" time="0.016"/>
-  <testcase name="testSaveAdmin" classname="imust.controller.AdminControllerTest" time="0.014"/>
-  <testcase name="testGetAllCar" classname="imust.controller.AdminControllerTest" time="0.01"/>
-  <testcase name="testFindPointByName" classname="imust.controller.AdminControllerTest" time="0.013"/>
-  <testcase name="testSaveMessage" classname="imust.controller.AdminControllerTest" time="0.012"/>
-  <testcase name="testEditNotice" classname="imust.controller.AdminControllerTest" time="0.009"/>
-  <testcase name="testFindCarByKey" classname="imust.controller.AdminControllerTest" time="0.01"/>
-  <testcase name="testAddCar" classname="imust.controller.AdminControllerTest" time="0.01"/>
-  <testcase name="testAnswer" classname="imust.controller.AdminControllerTest" time="0.017"/>
-  <testcase name="testDelCar" classname="imust.controller.AdminControllerTest" time="0.013"/>
-  <testcase name="testFindMessageByContent" classname="imust.controller.AdminControllerTest" time="0.011"/>
-  <testcase name="testDelAdmin" classname="imust.controller.AdminControllerTest" time="0.01"/>
-  <testcase name="testDelNotce" classname="imust.controller.AdminControllerTest" time="0.011"/>
-  <testcase name="testDelOrder" classname="imust.controller.AdminControllerTest" time="0.015"/>
-  <testcase name="testLogout" classname="imust.controller.AdminControllerTest" time="0.008"/>
-  <testcase name="testFindNoticeByTitle" classname="imust.controller.AdminControllerTest" time="0.014"/>
-  <testcase name="testStartAdmin" classname="imust.controller.AdminControllerTest" time="0.012"/>
-  <testcase name="testEditCar" classname="imust.controller.AdminControllerTest" time="0.01"/>
+  <testcase name="testAddMessage" classname="imust.controller.AdminControllerTest" time="3.242"/>
+  <testcase name="testStopAdmin" classname="imust.controller.AdminControllerTest" time="0.086"/>
+  <testcase name="testFindOrderByKey" classname="imust.controller.AdminControllerTest" time="0.011"/>
+  <testcase name="testGetAllUserPoint" classname="imust.controller.AdminControllerTest" time="0.047"/>
+  <testcase name="testUpdateAdmin" classname="imust.controller.AdminControllerTest" time="0.021"/>
+  <testcase name="testEditAdmin" classname="imust.controller.AdminControllerTest" time="0.028"/>
+  <testcase name="testFindUserByName" classname="imust.controller.AdminControllerTest" time="0.041"/>
+  <testcase name="testLogin" classname="imust.controller.AdminControllerTest" time="0.026"/>
+  <testcase name="testGetAllOrder" classname="imust.controller.AdminControllerTest" time="0.035"/>
+  <testcase name="testGetAllUser" classname="imust.controller.AdminControllerTest" time="0.019"/>
+  <testcase name="testGetAllMessage" classname="imust.controller.AdminControllerTest" time="0.057"/>
+  <testcase name="testUpdateNotice" classname="imust.controller.AdminControllerTest" time="0.002"/>
+  <testcase name="testCarSave" classname="imust.controller.AdminControllerTest" time="0.023"/>
+  <testcase name="testSaveNotice" classname="imust.controller.AdminControllerTest" time="0.031"/>
+  <testcase name="testGetAllNotice" classname="imust.controller.AdminControllerTest" time="0.045"/>
+  <testcase name="testAddNotice" classname="imust.controller.AdminControllerTest" time="0.07"/>
+  <testcase name="testDelMessage" classname="imust.controller.AdminControllerTest" time="0.001"/>
+  <testcase name="testSaveAdmin" classname="imust.controller.AdminControllerTest" time="0.041"/>
+  <testcase name="testGetAllCar" classname="imust.controller.AdminControllerTest" time="0.045"/>
+  <testcase name="testFindPointByName" classname="imust.controller.AdminControllerTest" time="0.02"/>
+  <testcase name="testSaveMessage" classname="imust.controller.AdminControllerTest" time="0.038"/>
+  <testcase name="testEditNotice" classname="imust.controller.AdminControllerTest" time="0.01"/>
+  <testcase name="testFindCarByKey" classname="imust.controller.AdminControllerTest" time="0.015"/>
+  <testcase name="testAddCar" classname="imust.controller.AdminControllerTest" time="0.014"/>
+  <testcase name="testAnswer" classname="imust.controller.AdminControllerTest" time="0.027"/>
+  <testcase name="testDelCar" classname="imust.controller.AdminControllerTest" time="0.044"/>
+  <testcase name="testFindMessageByContent" classname="imust.controller.AdminControllerTest" time="0.006"/>
+  <testcase name="testDelAdmin" classname="imust.controller.AdminControllerTest" time="0.018"/>
+  <testcase name="testDelNotce" classname="imust.controller.AdminControllerTest" time="0.025"/>
+  <testcase name="testDelOrder" classname="imust.controller.AdminControllerTest" time="0.019"/>
+  <testcase name="testLogout" classname="imust.controller.AdminControllerTest" time="0.007"/>
+  <testcase name="testFindNoticeByTitle" classname="imust.controller.AdminControllerTest" time="0.02"/>
+  <testcase name="testStartAdmin" classname="imust.controller.AdminControllerTest" time="0.013"/>
+  <testcase name="testEditCar" classname="imust.controller.AdminControllerTest" time="0.027"/>
 </testsuite>
