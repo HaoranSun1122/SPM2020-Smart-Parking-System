@@ -28,7 +28,7 @@ public class LoginInterceptor implements HandlerInterceptor{
             throws Exception {
         // TODO Auto-generated method stub
 		
-        //获取session666
+        //获取session666666
         HttpSession session = request.getSession(true);
         //判断用户是否存在，不存在就跳转到登录界面
         if(session.getAttribute("LogAdmin") == null){
